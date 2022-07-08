@@ -165,7 +165,7 @@ VALUES		('2'		,'Calle ALfonso Ugarte Mz B Lote 13'	,'150501'	,'2'	,'A'),
 		('4'		,'Calle Los Angeles Mz H Lote 40'	,'150508'	,'5'	,'A')
 GO
 
--- Creamos las vistas
+-- Creamos la VISTA
 
 -- Creamos el SP de VENTA
 
