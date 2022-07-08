@@ -1,0 +1,12 @@
+converter\ProductoConverter.class
+model\VentaDetalleModel.class
+dao\VentaImp.class
+model\UbigeoModel.class
+model\VentaModel.class
+dao\ProductoImp.class
+dao\PersonaImp.class
+model\ProductoModel.class
+dao\Conexion.class
+dao\ICRUD.class
+controller\PizzaC.class
+model\PersonaModel.class
