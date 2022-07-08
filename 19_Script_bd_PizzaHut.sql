@@ -165,7 +165,15 @@ VALUES		('2'		,'Calle ALfonso Ugarte Mz B Lote 13'	,'150501'	,'2'	,'A'),
 		('4'		,'Calle Los Angeles Mz H Lote 40'	,'150508'	,'5'	,'A')
 GO
 
--- Creamos la VISTA
+-- Creamos las vistas
+CREATE VIEW V_PRODUCTO_SUCURSALES
+AS
+SELECT
+S.DIRSUCUR,
+S.CODUBI,
+P.IDPRO
+FROM SUCURSALES AS S INNER JOIN PRODUCTO AS P
+ON S.IDPRO = P.IDPRO
 
 -- Creamos el SP de VENTA
 
